@@ -7,7 +7,19 @@
 <title>Bem Vindo</title>
 </head>
 <body>
+
+
+<form method="post" action="LoginServlet">
 <h1>Login: </h1>
+<input type="text" id="login" name="login"/>
+
 <h1>Senha: </h1>
+<input type="text" id="senha" name="senha"/>
+
+<input type="submit" value="Entrar"/>
+
+</form>
+
+
 </body>
 </html>
