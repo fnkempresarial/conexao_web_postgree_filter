@@ -10,7 +10,7 @@ public class DaoLogin {
 	//criar a ponte de conexão.
 	private Connection connection;
 	
-	//Construtor para buscagar a conexão ao banco e atribuir ao connection dessa classe
+	//Construtor para buscar a conexão ao banco e atribuir ao connection dessa classe
 	public DaoLogin() {
 		
 	connection = SingleConnection.getConnection();	
@@ -23,7 +23,7 @@ public class DaoLogin {
 		//gerando a string que busca no dado.
 		String  sql = "select * from users where login = '" +login+"' AND senha = '" + senha
 				 + "';";  
-		System.out.println(sql);
+		//System.out.println(sql);
 		//preparando a consulta.
 		PreparedStatement ps = connection.prepareStatement(sql);
 		

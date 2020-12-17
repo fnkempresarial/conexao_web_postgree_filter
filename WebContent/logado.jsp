@@ -8,7 +8,9 @@
 </head>
 <body>
 <pre>
-Você está logado
+Escolha uma das opções.
+
+<a href="cadastraUsuario.jsp" >Cadastrar Usuário </a>
 </pre>
 </body>
 </html>

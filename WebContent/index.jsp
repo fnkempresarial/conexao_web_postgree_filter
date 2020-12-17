@@ -14,7 +14,7 @@
 <input type="text" id="login" name="login"/>
 
 <h1>Senha: </h1>
-<input type="text" id="senha" name="senha"/>
+<input type="password" id="senha" name="senha"/>
 
 <input type="submit" value="Entrar"/>
 
